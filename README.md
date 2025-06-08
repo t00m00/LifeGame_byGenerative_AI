@@ -1,3 +1,7 @@
+# Publish page
+
+[here](https://t00m00.github.io/LifeGame_byGenerative_AI/)
+
 # Nuxt Minimal Starter
 
 Look at the [Nuxt documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
