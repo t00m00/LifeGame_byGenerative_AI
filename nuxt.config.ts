@@ -1,3 +1,5 @@
+import { resolveAlias } from "nuxt/kit";
+
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
   app: {
@@ -5,4 +7,12 @@ export default defineNuxtConfig({
   },
   compatibilityDate: '2024-11-01',
   devtools: { enabled: true },
+    nitro: {
+    output: {
+      publicDir: 'docs'
+    },
+    prerender: {
+      crawlLinks: true,
+    }
+  }
 })
